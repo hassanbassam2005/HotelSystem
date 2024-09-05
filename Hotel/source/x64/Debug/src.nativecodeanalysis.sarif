@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/think/github/hotel/source/src/src.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "85e23c1312c03abfdd3ad2a835582e819ef910dd7c940d1162b5486f7303dad6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/think/github/hotel/lib/functions/function.cpp"
+          },
+          "hashes": {
+            "sha-256": "4892b9255bea0795d15c15cfb9191f915586f7fc156107b1749a474f8b441a8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/think/github/hotel/lib/functions/function.h"
+          },
+          "hashes": {
+            "sha-256": "ac375b4cb56278f2e3467833db8036a3d7b69b731e039692db2c03c0e7471724"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/think/github/hotel/lib/hashtable/hash.cpp"
+          },
+          "hashes": {
+            "sha-256": "80bbba2c9376655210139fac843da24d1b9d3816c56df784916a4a4a8c9e5226"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/think/github/hotel/lib/hashtable/hash.h"
+          },
+          "hashes": {
+            "sha-256": "508a6237249d83148a4ba32f48cca0a22271012a188fbb52ee506110bee6e7d5"
+          }
+        }
+      ]
+    }
+  ]
+}
